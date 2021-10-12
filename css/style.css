@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}   
+h1 {
+  color:rgb(87, 85, 85);
+}
+h2 {
+  color:rgb(87, 85, 85);
+}
+h3 {
+  color:rgb(87, 85, 85);
+}
+p {
+    padding: 40px;
+    padding-top: 15px;
+    font-weight: 400;
+    color:rgb(87, 85, 85);
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(52, 50, 50);
+
+
+}
+.main-header ,
+footer {
+    background-color: #f0f0f0cf;
+    padding: 20px;
+}
+.name ,
+.main-nav {
+    text-align: center;
+    font-weight: bold;
+}
+.nav-link {
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    width: 90%;
+}
+
+.container ,
+img {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.container {
+    padding: 50px;
+}
+.container {
+    background-color: white;
+    width: 100%;
+}
+
+.profile-img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 2.5em; 
+    margin-top: 4em;
+}
+.portfolio {
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+.contact {
+    text-align: center;
+    padding: 10px;
+}
+.phone, .email {
+    font-weight: bold;
+}
+.top {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 1.2em;
+}
+
+.footer-ul {
+    display: none;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+    /*------ Media Queries------*/
+    @media (min-width: 768px) {
+        
+        
+    .main-nav .name {
+        margin: 30px 0 10px;
+        }
+    .nav-link, .main-nav  {
+        display: flex;
+        flex-direction: row;
+        background-color: inherit;
+        padding-left: 5px;      
+    }
+
+    .name ,
+    .portfolio ,
+    .nav-link ,
+    .main-nav ,
+    .container
+        {
+        justify-content: center;
+            
+        }
+
+    .nav-link {
+        display: inline-flex;
+    
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row-reverse; 
+        margin: 3.125em 1.5625em;      
+    }
+    .profile img {
+        width: 50%;
+        padding: 0;
+        margin-top: auto;
+    }
+    .profile p {
+        font-size: 1.375em;
+        margin: 0;
+        padding-right: 1em;
+        text-align: left;
+    }
+    .portfolio {
+        background-color: white;
+        padding: 0 auto;
+    }
+    .unit {
+        width: 40%;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .container .unit p {
+        padding: 0 1.5em;
+    }
+   
+    .top {
+        display: none;
+    }
+    .footer-nav {
+        padding: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .footer-ul {
+        display: block;
+    }
+    .footer-ul li , 
+    spam {
+        display: inline;
+        padding-left: 1.25em;
+        font-weight: bold;
+    }
+    .footer-ul {
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1024px) {
+   
+    body {
+         margin: 0 auto;
+         
+     }
+    .nav-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1em 1.25em 0 1.25em;
+    }
+   .profile p {
+       text-align: left;
+   }
+   .container .unit {
+       width: 33%;
+   }
+
+      
+}
