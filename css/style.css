@@ -87,6 +87,12 @@ img {
 .phone, .email {
     font-weight: bold;
 }
+strong {
+    display: inline;
+    padding-left: 1.25em;
+    font-weight: bold;
+    margin-top: 1.2em;
+}
 .top {
     list-style-type: none;
     text-transform: uppercase;
@@ -151,7 +157,7 @@ img {
     }
     .portfolio {
         background-color: white;
-        padding: 0 auto;
+        padding: 0;
     }
     .unit {
         width: 40%;
@@ -179,7 +185,7 @@ img {
         display: block;
     }
     .footer-ul li , 
-    spam {
+    .strong {
         display: inline;
         padding-left: 1.25em;
         font-weight: bold;
@@ -209,7 +215,5 @@ img {
    }
    .name {
     margin-left: 3.125em;  
-   }
-
-      
+   }      
 }
