@@ -207,6 +207,9 @@ img {
    .container .unit {
        width: 33%;
    }
+   .name {
+    margin-left: 3.125em;  
+   }
 
       
 }
